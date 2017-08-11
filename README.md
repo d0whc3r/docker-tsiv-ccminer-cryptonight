@@ -13,7 +13,7 @@ tsiv-ccminer-cryptonight is a modification of Christian Buchner's & Christian H.
 Run in background:
 
 ```console
-$ docker run -td --name some-tsiv-ccminer-cryptonight minecoins/tsiv-ccminer-cryptonight -o stratum+tcp://monerohash.com:3333 -u 49TfoHGd6apXxNQTSHrMBq891vH6JiHmZHbz5Vx36nLRbz6WgcJunTtgcxnoG6snKFeGhAJB5LjyAEnvhBgCs5MtEgML3LU -p x
+$ docker run -td --name some-tsiv-ccminer-cryptonight minecoins/tsiv-ccminer-cryptonight -o stratum+tcp://monerohash.com:3333 -u 4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CWBJdGgaYb2mTrUqjfM -p x
 ```
 
 Fetch logs of a container:
@@ -26,5 +26,4 @@ $ docker logs some-tsiv-ccminer-cryptonight
 
 Donations for work on dockerizing are accepted at:
 
-- BTC: `1NUMFM6UTv9iRVVzjsfhzbAGjwNxQRA8Qz`
-- XMR: `49TfoHGd6apXxNQTSHrMBq891vH6JiHmZHbz5Vx36nLRbz6WgcJunTtgcxnoG6snKFeGhAJB5LjyAEnvhBgCs5MtEgML3LU`
+- XMR: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CWBJdGgaYb2mTrUqjfM`
