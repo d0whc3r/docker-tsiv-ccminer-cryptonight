@@ -36,4 +36,4 @@ RUN set -x \
     && apt-get -qq --auto-remove purge $buildDeps
 
 ENTRYPOINT ["ccminer"]
-CMD ["-o", "stratum+tcp://monerohash.com:3333", "-u", "49TfoHGd6apXxNQTSHrMBq891vH6JiHmZHbz5Vx36nLRbz6WgcJunTtgcxnoG6snKFeGhAJB5LjyAEnvhBgCs5MtEgML3LU", "-p", "x"]
+CMD ["-o", "stratum+tcp://monerohash.com:3333", "-u", "4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CWBJdGgaYb2mTrUqjfM", "-p", "x"]
